@@ -12,7 +12,7 @@ This repository documents the core detection and response maps I use to defend a
 - [🧠 Detection Map](#detection-map)
 - [👾 Threat Actor Map](#threat-actor-map)
 - [🌸 Incident Response Playbook](#incident-response-playbook)
-- [Asset Inventory Map](#asset-inventory-map)
+- [🖥 Asset Inventory Map](#asset-inventory-map)
 - [🧪 Logging Coverage Map](#logging-coverage-map)
 - [🪵 Log Map](#log-map)
 
@@ -27,7 +27,7 @@ Track exposed services, software versions, and known CVEs.
 
 ---
 
-### 🌐 Network Topology Map
+### Network Topology Map
 Document your lab or live environment connectivity.
 ```
 | Node | IP | OS | Role | Connected To | Interface | Notes |
@@ -36,7 +36,7 @@ Document your lab or live environment connectivity.
 
 ---
 
-### 🧱 Firewall / ACL Map
+### Firewall / ACL Map
 Log ingress/egress rules, blocklists, and allowed paths.
 ```
 | Source IP | Destination IP | Port | Protocol | Direction | Action | Notes |
@@ -45,7 +45,7 @@ Log ingress/egress rules, blocklists, and allowed paths.
 
 ---
 
-### 📊 Logging Coverage Map
+### Logging Coverage Map
 Track what logs you collect, how often, and where visibility is missing.
 ```
 | Log Source | System | Format | Collection Tool | Frequency | Retention | Gaps |
@@ -54,7 +54,7 @@ Track what logs you collect, how often, and where visibility is missing.
 
 ---
 
-### 🕵️ Detection Map
+### Detection Map
 Log detection logic, trigger conditions, and tuning notes.
 ```
 | Detection Name | Source Log | Trigger Condition | Action Taken | False Positive Rate | ATT&CK Mapping | Notes |
@@ -63,7 +63,7 @@ Log detection logic, trigger conditions, and tuning notes.
 
 ---
 
-### 👤 Threat Actor Map
+### Threat Actor Map
 Track malicious IPs/domains, behaviors, and TTPs.
 ```
 | IP / Domain | Type | Behavior Observed | Source | Blocked? | Notes |
@@ -72,7 +72,7 @@ Track malicious IPs/domains, behaviors, and TTPs.
 
 ---
 
-### 💥 Incident Response Playbook
+### Incident Response Playbook
 Standardized response flow for common incidents.
 ```
 ## Incident Type: [e.g., Web Shell Upload Attempt]
