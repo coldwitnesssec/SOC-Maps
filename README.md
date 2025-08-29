@@ -12,13 +12,13 @@ This repository documents the core detection and response maps I use to defend a
 - [🧠 Detection Map](#detection-map)
 - [👾 Threat Actor Map](#threat-actor-map)
 - [🌸 Incident Response Playbook](#incident-response-playbook)
-- [🖥 Asset Inventory Map](#asset-inventory-map)
+- [Asset Inventory Map](#asset-inventory-map)
 - [🧪 Logging Coverage Map](#logging-coverage-map)
 - [🪵 Log Map](#log-map)
 
 
 
-### Vulnerability Map 🧭
+### Vulnerability Map
 Track exposed services, software versions, and known CVEs.
 ```
 | Asset | IP Address | Service | Port | Version | CVE(s) | Risk Level | Scan Tool | Date Found |
@@ -86,7 +86,7 @@ Standardized response flow for common incidents.
 
 ---
 
-### 🧩 Asset Inventory Map
+### Asset Inventory Map
 Track every system in your environment and link it to detections and logs.
 ```
 | Hostname | IP Address | MAC Address | OS | Role | Logging Enabled? | Last Seen | Notes |
