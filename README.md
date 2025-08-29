@@ -1,6 +1,6 @@
-# 🛡️ SOC Analyst Maps & Playbooks (LabCommand.com)
+# SOC Analyst Maps & Playbooks (LabCommand.com)
 
-This repository documents the core detection and response maps I use to defend and monitor LabCommand.com — a live web infrastructure where I run threat hunting, detection engineering, and SOC workflows.
+This repository documents the core detection and response maps I use to defend and monitor **LabCommand.com** — a live web infrastructure where I run threat hunting, detection engineering, and SOC workflows.
 
 ---
 
@@ -15,6 +15,7 @@ This repository documents the core detection and response maps I use to defend a
 - [🖥 Asset Inventory Map](#asset-inventory-map)
 - [🧪 Logging Coverage Map](#logging-coverage-map)
 - [🪵 Log Map](#log-map)
+
 
 
 ### 🧭 Vulnerability Map
