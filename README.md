@@ -18,7 +18,7 @@ This repository documents the core detection and response maps I use to defend a
 
 
 
-### 🧭 Vulnerability Map
+### Vulnerability Map 🧭
 Track exposed services, software versions, and known CVEs.
 ```
 | Asset | IP Address | Service | Port | Version | CVE(s) | Risk Level | Scan Tool | Date Found |
