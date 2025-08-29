@@ -95,5 +95,32 @@ Track every system in your environment and link it to detections and logs.
 
 ---
 
+### Log Map
+
+Document your key log sources, collection methods, and sample entries across your lab infrastructure.
+
+#### Log Sources
+
+- **Web server logs** (e.g., Apache access logs)
+- **Auth logs** (`/var/log/auth.log`)
+- **Syslog** from Linux servers (`/var/log/syslog`)
+- **Application logs** (WordPress, PHP errors, etc.)
+- **IDS alerts** (planned Suricata/Snort setup)
+
+#### Log Collection
+
+- Local collection (log files stored on host)
+- Centralized via rsyslog, Filebeat, or Wazuh (in progress)
+- Future SIEM integration (e.g., Splunk, ELK, Graylog)
+
+#### Examples
+
+Paste sanitized log lines here to show structure and support detection tuning.
+
+```log
+192.168.0.5 - - [09/Aug/2025:12:09:00 -0500] "GET /index.php HTTP/1.1" 200
+Aug 09 12:09:01 kali sshd[2301]: Failed password for invalid user admin from 10.10.10.10 port 445 ssh2
+
+
 🔧 Built and maintained by: [LabCommand.com](https://labcommand.com)  
 🧠 Designed for self-hosted SOC workflows, threat hunting, and detection lab operations.
