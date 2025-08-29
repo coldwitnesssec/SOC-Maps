@@ -6,6 +6,17 @@ This repository documents the core detection and response maps I use to defend a
 
 ## 📂 Contents
 
+- [🧭 Vulnerability Map](#vulnerability-map)
+- [🌐 Network Topology Map](#network-topology-map)
+- [🔥 Firewall / ACL Map](#firewall--acl-map)
+- [🧠 Detection Map](#detection-map)
+- [👾 Threat Actor Map](#threat-actor-map)
+- [🌸 Incident Response Playbook](#incident-response-playbook)
+- [🖥 Asset Inventory Map](#asset-inventory-map)
+- [🧪 Logging Coverage Map](#logging-coverage-map)
+- [🪵 Log Map](#log-map)
+
+
 ### 🧭 Vulnerability Map
 Track exposed services, software versions, and known CVEs.
 ```
