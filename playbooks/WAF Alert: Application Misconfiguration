@@ -1,7 +1,0 @@
-## Incident Type: WAF Alert – Python Module Error
-**Trigger:** WAF logs show `ModuleNotFoundError` from application
-**Triage:** Confirm alert source and frequency; correlate with deployment timeline
-**Containment:** None required (informational)
-**Mitigation:** Notify app owner or deployment team if recurring
-**Recovery:** Monitor for related anomalies (e.g., failed requests, service downtime)
-**Documentation:** Log in Detection Map and IR tracker; tag with "App Misconfig"
