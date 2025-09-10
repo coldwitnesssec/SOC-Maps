@@ -1,4 +1,4 @@
-# SOC Analyst Maps & Playbooks (LabCommand.com)
+# SOC Analyst Maps & Playbooks
 
 This repository documents the core detection and response maps I use to defend and monitor **LabCommand.com** — a live web infrastructure where I run threat hunting, detection engineering, and SOC workflows.
 
