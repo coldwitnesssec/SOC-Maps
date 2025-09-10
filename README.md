@@ -122,5 +122,5 @@ Paste sanitized log lines here to show structure and support detection tuning.
 Aug 09 12:09:01 kali sshd[2301]: Failed password for invalid user admin from 10.10.10.10 port 445 ssh2
 
 
-🔧 Built and maintained by: [LabCommand.com](https://labcommand.com)  
+🔧 Built and maintained by: @coldwitnesssec
 🧠 Designed for self-hosted SOC workflows, threat hunting, and detection lab operations.
