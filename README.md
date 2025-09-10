@@ -1,6 +1,8 @@
 # SOC Analyst Maps & Playbooks
 
-This repository documents the core detection and response maps I use to defend and monitor **Websites** — infrastructures where I run threat hunting, detection engineering, and SOC workflows.
+This repository is a structured toolkit for defending and monitoring web infrastructure. It includes detection maps, threat actor tracking, incident response playbooks, and logging coverage—all designed for self-hosted SOC workflows and hands-on threat hunting.
+
+Built for SOC analysts, detection engineers, and cybersecurity learners who want clarity, repeatability, and depth in their lab environments.
 
 ---
 
